@@ -151,7 +151,7 @@ The card automatically retrieves brand logos from:
 
 If no logo is found, a generic gas station icon (⛽) is displayed.
 
-> **Note**: When used with the [Preços Combustíveis](https://github.com/fcachado/ha-custom-component-precoscombustiveis) integration, logos are automatically provided by the device_tracker entities.
+> **Note**: When used with the [Preços Combustíveis](https://github.com/netsoft-ruidias/ha-custom-component-precoscombustiveis) integration, logos are automatically provided by the device_tracker entities.
 
 ## Helper Sensors
 
