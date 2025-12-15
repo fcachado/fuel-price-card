@@ -392,11 +392,11 @@ export class FuelPriceCardEditor extends LitElement {
   description:
     "A card to display fuel prices with dynamic color coding based on price comparison",
   preview: true,
-  documentationURL: "https://github.com/your-username/fuel-price-card",
+  documentationURL: "https://github.com/fcachado/fuel-price-card",
 });
 
 console.info(
-  `%c FUEL-PRICE-CARD %c v1.0.2 `,
+  `%c FUEL-PRICE-CARD %c v1.0.3 `,
   "color: white; background: #4CAF50; font-weight: bold;",
   "color: #4CAF50; background: white; font-weight: bold;"
 );
