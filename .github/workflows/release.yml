@@ -5,11 +5,14 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build and Release
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -36,11 +39,11 @@ jobs:
           name: ${{ steps.get_version.outputs.VERSION }}
           body: |
             ## Fuel Price Card ${{ steps.get_version.outputs.VERSION }}
-            
+
             ### Installation
-            
+
             [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=fcachado&repository=fuel-price-card&category=plugin)
-            
+
             Or download `fuel-price-card.js` and add it to your Lovelace resources.
           files: |
             dist/fuel-price-card.js
@@ -48,4 +51,3 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
