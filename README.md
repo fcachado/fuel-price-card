@@ -7,8 +7,8 @@
 
 A custom Lovelace card for Home Assistant that displays fuel prices with dynamic color coding.
 
-| Vertical Layout | Horizontal Layout |
-| :-------------: | :---------------: |
+|            Vertical Layout            |             Horizontal Layout             |
+| :-----------------------------------: | :---------------------------------------: |
 | ![Vertical](images/card_vertical.png) | ![Horizontal](images/card_horizontal.png) |
 
 ## Features

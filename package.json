@@ -1,6 +1,6 @@
 {
   "name": "fuel-price-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom Lovelace card for displaying fuel prices with dynamic color coding",
   "main": "dist/fuel-price-card.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/fuel-price-card"
+    "url": "https://github.com/fcachado/fuel-price-card"
   },
   "keywords": [
     "home-assistant",
@@ -18,9 +18,9 @@
     "custom-card",
     "fuel",
     "gas-station",
-    "mushroom"
+    "hacs"
   ],
-  "author": "Your Name",
+  "author": "Francisco Cachado",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.0",
