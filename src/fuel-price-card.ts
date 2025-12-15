@@ -396,7 +396,7 @@ export class FuelPriceCardEditor extends LitElement {
 });
 
 console.info(
-  `%c FUEL-PRICE-CARD %c v1.0.1 `,
+  `%c FUEL-PRICE-CARD %c v1.0.2 `,
   "color: white; background: #4CAF50; font-weight: bold;",
   "color: #4CAF50; background: white; font-weight: bold;"
 );

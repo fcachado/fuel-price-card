@@ -1,6 +1,6 @@
 {
   "name": "fuel-price-card",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom Lovelace card for displaying fuel prices with dynamic color coding",
   "main": "dist/fuel-price-card.js",
   "scripts": {
